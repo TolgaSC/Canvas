@@ -1,0 +1,154 @@
+@font-face {
+    font-family: 'OpenSans-Regular';
+    src: url('../font/OpenSans-Regular.ttf');
+}
+
+@font-face {
+    font-family: 'Roboto-Regular';
+    src: url('../font/Roboto-Regular.ttf');
+}
+
+@font-face {
+    font-family: 'OpenSans-Bold';
+    src: url('../font/OpenSans_SemiCondensed-ExtraBold.ttf');
+}
+
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+header {
+    background-image: url('../img/titel-bild.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+header h1 {
+    font-family: 'OpenSans-Regular';
+    color: #fff;
+    font-size: 40px;
+}
+
+header img {
+    position: absolute;
+    margin-top: 500px;
+}
+
+section {
+    background-color: #f7f7f7;
+}
+
+.second_section {
+    margin: 0 auto;
+    padding-top: 300px;
+    height: 500px;
+    display: block;
+}
+
+
+.second_section h2, .section_artists h2 {
+    font-size: 37px;
+    font-family: 'OpenSans-Regular';
+    text-align: center;
+    margin: 0 auto;
+}
+
+.second_section p, .section_artists p {
+    text-align: center;
+    width: 750px;
+    font-family: 'OpenSans-Regular';
+    font-size: 18px;
+    padding-top: 10px;
+    margin: 0 auto;
+}
+
+.second_section p:nth-of-type(2)::after {
+    content: 'Hangout Meets.';
+    color: rgb(48, 145, 255);
+}
+
+.google_meet {
+    display: flex;
+    justify-content: center;
+}
+
+.google_meet img {
+    width: 40%;
+}
+
+.section_artists {
+    padding-top: 200px;
+    height: 200px;
+    display: block;
+}
+
+.gallery {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    padding-bottom: 100px;
+    margin: 0 auto;
+}
+
+.gallery img {
+    width: 600px;
+}
+
+.collab {
+    height: 600px;
+    background-color: #fff;
+    
+}
+
+.collab h2 {
+    padding: 300px 0 300px 0;
+    font-family: 'Roboto-Regular';
+    font-size: 30px;
+    text-align: center;
+}
+
+footer {
+    display: flex;
+    justify-content: space-between;
+    margin: 30px 20px 20px 10px;
+
+}
+
+footer section p:nth-of-type(1) {
+    font-size: 12px;
+    background-color: #fff;
+    margin-left: 100px;
+    color: #4a4a4a;
+}
+
+footer section {
+    background-color: #fff;
+}
+
+footer section img {
+    width: 200px;
+    padding-left: 60px;
+    background-color: #fff;
+}
+
+footer .footer_second_p {
+    text-align: center;
+    width: 360px;
+    margin-right: 130px;
+    font-size: 12px;
+    color: #4a4a4a;
+}
+
+footer a {
+    text-decoration: none;
+    color: #4a4a4a;
+    padding-right: 40px;
+}
