@@ -147,10 +147,12 @@ footer .footer_second_p {
     font-size: 12px;
     color: #4a4a4a;
     background-color: #fff;
+    padding-top: 10px;
 }
 
 footer a {
     text-decoration: none;
     color: #4a4a4a;
     padding-right: 40px;
+    padding-top: 10px;
 }
