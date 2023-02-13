@@ -9,10 +9,9 @@
 }
 
 @font-face {
-    font-family: 'OpenSans-Bold';
-    src: url('../font/OpenSans_SemiCondensed-ExtraBold.ttf');
+    font-family: 'OpenSans';
+    src: url('../font/OpenSans-VariableFont_wdth\,wght.ttf');
 }
-
 
 * {
     padding: 0;
@@ -31,9 +30,15 @@ header {
 }
 
 header h1 {
-    font-family: 'OpenSans-Regular';
+    font-family: 'OpenSans';
     color: #fff;
     font-size: 40px;
+    font-weight: 200;
+}
+
+header span {
+    font-family: 'OpenSans';
+    font-weight: bold;
 }
 
 header img {
@@ -61,7 +66,7 @@ section {
 
 .second_section h2, .section_artists h2 {
     font-size: 37px;
-    font-family: 'OpenSans-Regular';
+    font-family: 'OpenSans';
     text-align: center;
     margin: 0 auto;
 }
@@ -69,7 +74,7 @@ section {
 .second_section p, .section_artists p {
     text-align: center;
     width: 750px;
-    font-family: 'OpenSans-Regular';
+    font-family: 'OpenSans';
     font-size: 18px;
     padding-top: 10px;
     margin: 0 auto;
@@ -148,7 +153,7 @@ footer section img {
 footer .footer_second_p {
     text-align: center;
     width: 360px;
-    margin-right: 130px;
+    margin-right: 150px;
     font-size: 12px;
     color: #4a4a4a;
     background-color: #fff;
@@ -160,4 +165,13 @@ footer a {
     color: #4a4a4a;
     padding-right: 40px;
     padding-top: 10px;
+}
+
+.fixed {
+    position: fixed;
+    font-size: 20px;
+    background-color: #f7f7f7;
+    width: 100%;
+    text-align: right;
+    bottom: 0;
 }
